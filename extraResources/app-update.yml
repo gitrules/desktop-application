@@ -1,0 +1,6 @@
+owner: gitrules
+repo: desktop-application
+provider: github
+protocol: https
+private: true
+updaterCacheDirName: gitrules-desktop-app-updater
