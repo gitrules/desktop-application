@@ -14,7 +14,7 @@ export const LicenseViewer: FC<LicenseViewerProps> = function LicenseViewer({
     <div style={{ height }} className={styles.root}>
       <p>MIT License</p>
 
-      <p>Copyright (c) Gov4Git.</p>
+      <p>Copyright (c) GitRules.</p>
 
       <p>
         Permission is hereby granted, free of charge, to any person obtaining a
