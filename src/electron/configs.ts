@@ -15,5 +15,5 @@ export const COMMUNITY_REPO_NAME =
 
 export const GITHUB_OAUTH_CLIENT_ID = '21a24c7b897cb2509682'
 
-// export const CLI_VERSION = pkgJson['dependencies']['@gitrules/js-client']
-export const CLI_VERSION = '0.0.1'
+export const CLI_VERSION = pkgJson['dependencies']['@gitrules/js-client']
+// export const CLI_VERSION = '0.0.1'
