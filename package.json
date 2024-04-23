@@ -1,7 +1,7 @@
 {
   "name": "gitrules-desktop-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "GitRules Desktop Application",
   "type": "commonjs",
   "main": "./build/electron/main.js",

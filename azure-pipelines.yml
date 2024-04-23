@@ -86,7 +86,7 @@ stages:
           - task: EsrpCodeSigning@4
             displayName: Third Party OSS Sign
             inputs:
-              ConnectedServiceName: 'gitrules ESRP Code Signing'
+              ConnectedServiceName: 'gov4git ESRP Code Signing'
               FolderPath: 'release/win-unpacked'
               Pattern: |
                 **/*.exe
@@ -125,7 +125,7 @@ stages:
           - task: EsrpCodeSigning@4
             displayName: EXE Sign
             inputs:
-              ConnectedServiceName: 'gitrules ESRP Code Signing'
+              ConnectedServiceName: 'gov4git ESRP Code Signing'
               FolderPath: 'release/win-unpacked'
               Pattern: '*.exe'
               UseMinimatch: true
@@ -161,7 +161,7 @@ stages:
             displayName: 'Package Electron'
           - task: EsrpCodeSigning@4
             inputs:
-              ConnectedServiceName: 'gitrules ESRP Code Signing'
+              ConnectedServiceName: 'gov4git ESRP Code Signing'
               FolderPath: 'release'
               Pattern: '*.exe'
               UseMinimatch: true
