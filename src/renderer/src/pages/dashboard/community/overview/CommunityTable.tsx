@@ -144,9 +144,9 @@ const CommunityAction: FC<CommunityMembersipStatusProps> =
       setCommunityDashboardState('manage')
     }, [setCommunityDashboardState, setManagedCommunity, community])
 
-    // if (community.isMaintainer) {
-    //   return <Button onClick={manage}>Manage</Button>
-    // }
+    if (community.isMaintainer) {
+      return <Button onClick={manage}>Manage</Button>
+    }
 
     if (
       !community.isMaintainer &&
